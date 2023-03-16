@@ -1,4 +1,4 @@
-############## filterzerovar ##############3
+############## filterzerovar ##############
 filterzerovar <- function(mat){
 
   if(class(mat)[[1]] == "dgCMatrix"){
@@ -9,3 +9,13 @@ filterzerovar <- function(mat){
   return(mat)
 }
 
+############## BetaToMvalue ##############
+BetaToMvalue = function(Beta){
+  Beta [which(Beta ==0)] <- 0.01
+  Beta [which(Beta <0.01)] <- 0.01
+  Beta [which(Beta ==1)] <- 0.99
+  Beta [which(Beta >0.99)] <- 0.99
+  Mvalue <- log2(Beta/(1 - Beta))
+
+  return(Mvalue)
+}
