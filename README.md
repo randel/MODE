@@ -7,7 +7,7 @@ devtools::install_github("randel/MODE")
 ```
 
 ## Workflow
-<img src = "MODE_overview.png">
+<img src = "./man/figures/MODE_overview.png">
 
 
 Tutorial
