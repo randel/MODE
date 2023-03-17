@@ -10,7 +10,7 @@ devtools::install_github("randel/MODE")
 <img src = "./man/figures/MODE_overview.png">
 
 
-Tutorial
+The tutorial will be available soon at:
 -----------------
 https://randel.github.io/MODE/
 
