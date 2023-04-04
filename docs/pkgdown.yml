@@ -1,0 +1,9 @@
+pandoc: 2.19.2
+pkgdown: 2.0.6
+pkgdown_sha: ~
+articles: {}
+last_built: 2023-03-17T01:28Z
+urls:
+  reference: https://randel.github.io/MODE/reference
+  article: https://randel.github.io/MODE/articles
+
